@@ -1,0 +1,4 @@
+Work in progress
+
+Use robo.py to generate a large routine of ActuateGripper and MoveArmTo steps. 
+Currently need to manually splice in the overarching loop step and rename the second stepDefinitions to stepConfigurations.
