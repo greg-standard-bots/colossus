@@ -1,0 +1,1983 @@
+{
+    "globals": {
+      "globalSpace": [],
+      "globalVariables": []
+    },
+    "routine": {
+      "motionPlanner": "ROS2",
+      "steps": [
+        {
+          "id": "a58e925f-55ed-4e23-939f-97cdbfadeb7b",
+          "stepKind": "Loop",
+          "steps": [
+            {
+              "id": "0fb1a7c4-b6bf-43b0-b640-af8211948ebd",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "d306fc1c-3da9-451e-a7e1-31f7a4d45902",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "39bc48f1-77c7-405f-8c6c-da92f48b655c",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "09451da2-b192-468a-9339-60b6205a6e02",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "3be54bf6-9662-4ec3-9f8c-00af3893e759",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "52e2280f-1be8-416f-9f1f-113c13cc7be9",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "38798c47-68f8-4b60-9513-f0605057a9ff",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "b4c3ed49-98b9-48f4-85ed-9072feb81ff3",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "i1j2k3l4-5m6n-7o8p-9q0r-1s2t3u4v5w6x",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "j2k3l4m5-6n7o-8p9q-0r1s-2t3u4v5w6x7y",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "k3l4m5n6-7o8p-9q0r-1s2t-3u4v5w6x7y8z",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "l4m5n6o7-8p9q-0r1s-2t3u-4v5w6x7y8z9a",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "m5n6o7p8-9q0r-1s2t-3u4v-5w6x7y8z9a0b",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "n6o7p8q9-0r1s-2t3u-4v5w-6x7y8z9a0b1c",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "o7p8q9r0-1s2t-3u4v-5w6x-7y8z9a0b1c2d",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "p8q9r0s1-2t3u-4v5w-6x7y-8z9a0b1c2d3e",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "q9r0s1t2-3u4v-5w6x-7y8z-9a0b1c2d3e4f",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "r0s1t2u3-4v5w-6x7y-8z9a-0b1c2d3e4f5g",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "s1t2u3v4-5w6x-7y8z-9a0b-1c2d3e4f5g6h",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "t2u3v4w5-6x7y-8z9a-0b1c-2d3e4f5g6h7i",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "u3v4w5x6-7y8z-9a0b-1c2d-3e4f5g6h7i8j",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "v4w5x6y7-8z9a-0b1c-2d3e-4f5g6h7i8j9k",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "w5x6y7z8-9a0b-1c2d-3e4f-5g6h7i8j9k0l",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "x6y7z8a9-0b1c-2d3e-4f5g-6h7i8j9k0l1m",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "y7z8a9b0-1c2d-3e4f-5g6h-7i8j9k0l1m2n",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "z8a9b0c1-2d3e-4f5g-6h7i-8j9k0l1m2n3o",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "a9b0c1d2-3e4f-5g6h-7i8j-9k0l1m2n3o4p",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "b0c1d2e3-4f5g-6h7i-8j9k-0l1m2n3o4p5q",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "c1d2e3f4-5g6h-7i8j-9k0l-1m2n3o4p5q6r",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "d2e3f4g5-6h7i-8j9k-0l1m-2n3o4p5q6r7s",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "e3f4g5h6-7i8j-9k0l-1m2n-3o4p5q6r7s8t",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "f4g5h6i7-8j9k-0l1m-2n3o-4p5q6r7s8t9u",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "g5h6i7j8-9k0l-1m2n-3o4p-5q6r7s8t9u0v",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "h6i7j8k9-0l1m-2n3o-4p5q-6r7s8t9u0v1w",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "i7j8k9l0-1m2n-3o4p-5q6r-7s8t9u0v1w2x",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "j8k9l0m1-2n3o-4p5q-6r7s-8t9u0v1w2x3y",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "k9l0m1n2-3o4p-5q6r-7s8t-9u0v1w2x3y4z",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "l0m1n2o3-4p5q-6r7s-8t9u-0v1w2x3y4z5a",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "m1n2o3p4-5q6r-7s8t-9u0v-1w2x3y4z5a6b",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "n2o3p4q5-6r7s-8t9u-0v1w-2x3y4z5a6b7c",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "o3p4q5r6-7s8t-9u0v-1w2x-3y4z5a6b7c8d",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "p4q5r6s7-8t9u-0v1w-2x3y-4z5a6b7c8d9e",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "q5r6s7t8-9u0v-1w2x-3y4z-5a6b7c8d9e0f",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "r6s7t8u9-0v1w-2x3y-4z5a-6b7c8d9e0f1g",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "s7t8u9v0-1w2x-3y4z-5a6b-7c8d9e0f1g2h",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "t8u9v0w1-2x3y-4z5a-6b7c-8d9e0f1g2h3i",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "u9v0w1x2-3y4z-5a6b-7c8d-9e0f1g2h3i4j",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "v0w1x2y3-4z5a-6b7c-8d9e-0f1g2h3i4j5k",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "w1x2y3z4-5a6b-7c8d-9e0f-1g2h3i4j5k6l",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "x2y3z4a5-6b7c-8d9e-0f1g-2h3i4j5k6l7m",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "y3z4a5b6-7c8d-9e0f-1g2h-3i4j5k6l7m8n",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "z4a5b6c7-8d9e-0f1g-2h3i-4j5k6l7m8n9o",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "a5b6c7d8-9e0f-1g2h-3i4j-5k6l7m8n9o0p",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "b6c7d8e9-0f1g-2h3i-4j5k-6l7m8n9o0p1q",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "c7d8e9f0-1g2h-3i4j-5k6l-7m8n9o0p1q2r",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "d8e9f0g1-2h3i-4j5k-6l7m-8n9o0p1q2r3s",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "e9f0g1h2-3i4j-5k6l-7m8n-9o0p1q2r3s4t",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "f0g1h2i3-4j5k-6l7m-8n9o-0p1q2r3s4t5u",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "g1h2i3j4-5k6l-7m8n-9o0p-1q2r3s4t5u6v",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "h2i3j4k5-6l7m-8n9o-0p1q-2r3s4t5u6v7w",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "i3j4k5l6-7m8n-9o0p-1q2r-3s4t5u6v7w8x",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "j4k5l6m7-8n9o-0p1q-2r3s-4t5u6v7w8x9y",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "k5l6m7n8-9o0p-1q2r-3s4t-5u6v7w8x9y0z",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "l6m7n8o9-0p1q-2r3s-4t5u-6v7w8x9y0z1a",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "m7n8o9p0-1q2r-3s4t-5u6v-7w8x9y0z1a2b",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "n8o9p0q1-2r3s-4t5u-6v7w-8x9y0z1a2b3c",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "o9p0q1r2-3s4t-5u6v-7w8x-9y0z1a2b3c4d",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "p0q1r2s3-4t5u-6v7w-8x9y-0z1a2b3c4d5e",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "q1r2s3t4-5u6v-7w8x-9y0z-1a2b3c4d5e6f",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "r2s3t4u5-6v7w-8x9y-0z1a-2b3c4d5e6f7g",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "s3t4u5v6-7w8x-9y0z-1a2b-3c4d5e6f7g8h",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "t4u5v6w7-8x9y-0z1a-2b3c-4d5e6f7g8h9i",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "u5v6w7x8-9y0z-1a2b-3c4d-5e6f7g8h9i0j",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "v6w7x8y9-0z1a-2b3c-4d5e-6f7g8h9i0j1k",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "w7x8y9z0-1a2b-3c4d-5e6f-7g8h9i0j1k2l",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "x8y9z0a1-2b3c-4d5e-6f7g-8h9i0j1k2l3m",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "y9z0a1b2-3c4d-5e6f-7g8h-9i0j1k2l3m4n",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "z0a1b2c3-4d5e-6f7g-8h9i-0j1k2l3m4n5o",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "a1b2c3d4-5e6f-7g8h-9i0j-1k2l3m4n5o6p",
+              "stepKind": "MoveArmTo"
+            },
+            {
+              "id": "b2c3d4e5-6f7g-8h9i-0j1k-2l3m4n5o6p7q",
+              "stepKind": "ActuateGripper"
+            },
+            {
+              "id": "c3d4e5f6-7g8h-9i0j-1k2l-3m4n5o6p7q8r",
+              "stepKind": "ActuateGripper"
+            }
+          ]
+        }
+      ],
+      "stepConfigurations": {
+        "a58e925f-55ed-4e23-939f-97cdbfadeb7b": {
+          "args": {
+            "argumentKind": "Loop",
+            "times": null,
+            "condition": null
+          }
+        },
+        "0fb1a7c4-b6bf-43b0-b640-af8211948ebd": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 30,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "d306fc1c-3da9-451e-a7e1-31f7a4d45902": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 30,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "39bc48f1-77c7-405f-8c6c-da92f48b655c": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                1.1819201970197746,
+                -0.09781916965026195,
+                1.853979308960159,
+                -1.7640420709520575,
+                -1.182153425795368,
+                1.602594606981648
+              ],
+              "pose": {
+                "w": 0.4909475903468819,
+                "i": 0.5090006173464415,
+                "j": 0.5052937240093636,
+                "k": 0.49453724586756975,
+                "x": 0.004836347311677702,
+                "y": 0.6946685703527202,
+                "z": 0.8097036892584941
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "09451da2-b192-468a-9339-60b6205a6e02": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "3be54bf6-9662-4ec3-9f8c-00af3893e759": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 45,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "52e2280f-1be8-416f-9f1f-113c13cc7be9": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                -0.18055372600624953,
+                -0.6329043335048582,
+                1.4108886932056912,
+                -0.7809278912317339,
+                -1.3787062871023856,
+                -0.6358414237113195
+              ],
+              "pose": {
+                "w": 0.9497853847317869,
+                "i": -0.31284558490773773,
+                "j": -0.0031768834478292946,
+                "k": 0.005026963813846869,
+                "x": 0.24633563732975722,
+                "y": 0.18444669164504088,
+                "z": 1.1899529230881356
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "38798c47-68f8-4b60-9513-f0605057a9ff": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "b4c3ed49-98b9-48f4-85ed-9072feb81ff3": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 45,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "i1j2k3l4-5m6n-7o8p-9q0r-1s2t3u4v5w6x": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 60,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "j2k3l4m5-6n7o-8p9q-0r1s-2t3u4v5w6x7y": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 60,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "k3l4m5n6-7o8p-9q0r-1s2t-3u4v5w6x7y8z": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                2.4219201970197746,
+                -0.93781916965026195,
+                2.753979308960159,
+                -3.0840420709520575,
+                -2.442153425795368,
+                2.792594606981648
+              ],
+              "pose": {
+                "w": 0.4909475903468819,
+                "i": 0.5090006173464415,
+                "j": 0.5052937240093636,
+                "k": 0.49453724586756975,
+                "x": 0.004836347311677702,
+                "y": 0.6946685703527202,
+                "z": 0.8097036892584941
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "l4m5n6o7-8p9q-0r1s-2t3u-4v5w6x7y8z9a": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "m5n6o7p8-9q0r-1s2t-3u4v-5w6x7y8z9a0b": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 75,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "n6o7p8q9-0r1s-2t3u-4v5w-6x7y8z9a0b1c": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                -1.5805537260062495,
+                -1.9829043335048582,
+                2.7608886932056912,
+                -1.8309278912317339,
+                -2.4287062871023856,
+                -1.9858414237113195
+              ],
+              "pose": {
+                "w": 0.9497853847317869,
+                "i": -0.31284558490773773,
+                "j": -0.0031768834478292946,
+                "k": 0.005026963813846869,
+                "x": 0.24633563732975722,
+                "y": 0.18444669164504088,
+                "z": 1.1899529230881356
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "o7p8q9r0-1s2t-3u4v-5w6x-7y8z9a0b1c2d": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "p8q9r0s1-2t3u-4v5w-6x7y-8z9a0b1c2d3e": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 75,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "q9r0s1t2-3u4v-5w6x-7y8z-9a0b1c2d3e4f": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 65,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "r0s1t2u3-4v5w-6x7y-8z9a-0b1c2d3e4f5g": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 65,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "s1t2u3v4-5w6x-7y8z-9a0b-1c2d3e4f5g6h": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                2.4619201970197746,
+                -0.95781916965026195,
+                2.773979308960159,
+                -3.1040420709520575,
+                -2.462153425795368,
+                2.812594606981648
+              ],
+              "pose": {
+                "w": 0.4909475903468819,
+                "i": 0.5090006173464415,
+                "j": 0.5052937240093636,
+                "k": 0.49453724586756975,
+                "x": 0.004836347311677702,
+                "y": 0.6946685703527202,
+                "z": 0.8097036892584941
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "t2u3v4w5-6x7y-8z9a-0b1c-2d3e4f5g6h7i": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "u3v4w5x6-7y8z-9a0b-1c2d-3e4f5g6h7i8j": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 80,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "v4w5x6y7-8z9a-0b1c-2d3e-4f5g6h7i8j9k": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                -1.6305537260062495,
+                -2.0329043335048582,
+                2.8108886932056912,
+                -1.8809278912317339,
+                -2.4787062871023856,
+                -2.0358414237113195
+              ],
+              "pose": {
+                "w": 0.9497853847317869,
+                "i": -0.31284558490773773,
+                "j": -0.0031768834478292946,
+                "k": 0.005026963813846869,
+                "x": 0.24633563732975722,
+                "y": 0.18444669164504088,
+                "z": 1.1899529230881356
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "w5x6y7z8-9a0b-1c2d-3e4f-5g6h7i8j9k0l": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "x6y7z8a9-0b1c-2d3e-4f5g-6h7i8j9k0l1m": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 80,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "y7z8a9b0-1c2d-3e4f-5g6h-7i8j9k0l1m2n": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 70,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "z8a9b0c1-2d3e-4f5g-6h7i-8j9k0l1m2n3o": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 70,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "a9b0c1d2-3e4f-5g6h-7i8j-9k0l1m2n3o4p": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                2.4819201970197746,
+                -0.97781916965026195,
+                2.793979308960159,
+                -3.1240420709520575,
+                -2.482153425795368,
+                2.832594606981648
+              ],
+              "pose": {
+                "w": 0.4909475903468819,
+                "i": 0.5090006173464415,
+                "j": 0.5052937240093636,
+                "k": 0.49453724586756975,
+                "x": 0.004836347311677702,
+                "y": 0.6946685703527202,
+                "z": 0.8097036892584941
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "b0c1d2e3-4f5g-6h7i-8j9k-0l1m2n3o4p5q": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "c1d2e3f4-5g6h-7i8j-9k0l-1m2n3o4p5q6r": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 85,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "d2e3f4g5-6h7i-8j9k-0l1m-2n3o4p5q6r7s": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                -1.6805537260062495,
+                -2.0829043335048582,
+                2.8608886932056912,
+                -1.9309278912317339,
+                -2.5287062871023856,
+                -2.0858414237113195
+              ],
+              "pose": {
+                "w": 0.9497853847317869,
+                "i": -0.31284558490773773,
+                "j": -0.0031768834478292946,
+                "k": 0.005026963813846869,
+                "x": 0.24633563732975722,
+                "y": 0.18444669164504088,
+                "z": 1.1899529230881356
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "e3f4g5h6-7i8j-9k0l-1m2n-3o4p5q6r7s8t": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "f4g5h6i7-8j9k-0l1m-2n3o-4p5q6r7s8t9u": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 85,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "g5h6i7j8-9k0l-1m2n-3o4p-5q6r7s8t9u0v": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 90,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "h6i7j8k9-0l1m-2n3o-4p5q-6r7s8t9u0v1w": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                2.5019201970197746,
+                -0.99781916965026195,
+                2.813979308960159,
+                -3.1440420709520575,
+                -2.502153425795368,
+                2.852594606981648
+              ],
+              "pose": {
+                "w": 0.4909475903468819,
+                "i": 0.5090006173464415,
+                "j": 0.5052937240093636,
+                "k": 0.49453724586756975,
+                "x": 0.004836347311677702,
+                "y": 0.6946685703527202,
+                "z": 0.8097036892584941
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "i7j8k9l0-1m2n-3o4p-5q6r-7s8t9u0v1w2x": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "j8k9l0m1-2n3o-4p5q-6r7s-8t9u0v1w2x3y": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 95,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "k9l0m1n2-3o4p-5q6r-7s8t-9u0v1w2x3y4z": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                -1.7305537260062495,
+                -2.1329043335048582,
+                2.9608886932056912,
+                -2.0809278912317339,
+                -2.6787062871023856,
+                -2.1858414237113195
+              ],
+              "pose": {
+                "w": 0.9497853847317869,
+                "i": -0.31284558490773773,
+                "j": -0.0031768834478292946,
+                "k": 0.005026963813846869,
+                "x": 0.24633563732975722,
+                "y": 0.18444669164504088,
+                "z": 1.1899529230881356
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "l0m1n2o3-4p5q-6r7s-8t9u-0v1w2x3y4z5a": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "m1n2o3p4-5q6r-7s8t-9u0v-1w2x3y4z5a6b": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 95,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "n2o3p4q5-6r7s-8t9u-0v1w-2x3y4z5a6b7c": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 100,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "o3p4q5r6-7s8t-9u0v-1w2x-3y4z5a6b7c8d": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 100,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "p4q5r6s7-8t9u-0v1w-2x3y-4z5a6b7c8d9e": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                2.5219201970197746,
+                -1.01781916965026195,
+                2.833979308960159,
+                -3.1640420709520575,
+                -2.522153425795368,
+                2.872594606981648
+              ],
+              "pose": {
+                "w": 0.4909475903468819,
+                "i": 0.5090006173464415,
+                "j": 0.5052937240093636,
+                "k": 0.49453724586756975,
+                "x": 0.004836347311677702,
+                "y": 0.6946685703527202,
+                "z": 0.8097036892584941
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "q5r6s7t8-9u0v-1w2x-3y4z-5a6b7c8d9e0f": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "r6s7t8u9-0v1w-2x3y-4z5a-6b7c8d9e0f1g": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 105,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "s7t8u9v0-1w2x-3y4z-5a6b-7c8d9e0f1g2h": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                -1.7805537260062495,
+                -2.1829043335048582,
+                2.9608886932056912,
+                -2.0309278912317339,
+                -2.6787062871023856,
+                -2.1858414237113195
+              ],
+              "pose": {
+                "w": 0.9497853847317869,
+                "i": -0.31284558490773773,
+                "j": -0.0031768834478292946,
+                "k": 0.005026963813846869,
+                "x": 0.24633563732975722,
+                "y": 0.18444669164504088,
+                "z": 1.1899529230881356
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "t8u9v0w1-2x3y-4z5a-6b7c-8d9e0f1g2h3i": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "u9v0w1x2-3y4z-5a6b-7c8d-9e0f1g2h3i4j": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 105,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "v0w1x2y3-4z5a-6b7c-8d9e-0f1g2h3i4j5k": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 110,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "w1x2y3z4-5a6b-7c8d-9e0f-1g2h3i4j5k6l": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 110,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "x2y3z4a5-6b7c-8d9e-0f1g-2h3i4j5k6l7m": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                2.5419201970197746,
+                -1.03781916965026195,
+                2.853979308960159,
+                -3.1840420709520575,
+                -2.542153425795368,
+                2.892594606981648
+              ],
+              "pose": {
+                "w": 0.4909475903468819,
+                "i": 0.5090006173464415,
+                "j": 0.5052937240093636,
+                "k": 0.49453724586756975,
+                "x": 0.004836347311677702,
+                "y": 0.6946685703527202,
+                "z": 0.8097036892584941
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "y3z4a5b6-7c8d-9e0f-1g2h-3i4j5k6l7m8n": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "z4a5b6c7-8d9e-0f1g-2h3i-4j5k6l7m8n9o": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 115,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "a5b6c7d8-9e0f-1g2h-3i4j-5k6l7m8n9o0p": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                -1.8305537260062495,
+                -2.2329043335048582,
+                3.0108886932056912,
+                -2.0809278912317339,
+                -2.6787062871023856,
+                -2.2358414237113195
+              ],
+              "pose": {
+                "w": 0.9497853847317869,
+                "i": -0.31284558490773773,
+                "j": -0.0031768834478292946,
+                "k": 0.005026963813846869,
+                "x": 0.24633563732975722,
+                "y": 0.18444669164504088,
+                "z": 1.1899529230881356
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "b6c7d8e9-0f1g-2h3i-4j5k-6l7m8n9o0p1q": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "c7d8e9f0-1g2h-3i4j-5k6l-7m8n9o0p1q2r": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 115,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "d8e9f0g1-2h3i-4j5k-6l7m-8n9o0p1q2r3s": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 120,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "e9f0g1h2-3i4j-5k6l-7m8n-9o0p1q2r3s4t": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 120,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "f0g1h2i3-4j5k-6l7m-8n9o-0p1q2r3s4t5u": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                2.5619201970197746,
+                -1.05781916965026195,
+                2.873979308960159,
+                -3.2040420709520575,
+                -2.562153425795368,
+                2.912594606981648
+              ],
+              "pose": {
+                "w": 0.4909475903468819,
+                "i": 0.5090006173464415,
+                "j": 0.5052937240093636,
+                "k": 0.49453724586756975,
+                "x": 0.004836347311677702,
+                "y": 0.6946685703527202,
+                "z": 0.8097036892584941
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "g1h2i3j4-5k6l-7m8n-9o0p-1q2r3s4t5u6v": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "h2i3j4k5-6l7m-8n9o-0p1q-2r3s4t5u6v7w": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "i3j4k5l6-7m8n-9o0p-1q2r-3s4t5u6v7w8x": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                -1.8805537260062495,
+                -2.2829043335048582,
+                3.0608886932056912,
+                -2.1309278912317339,
+                -2.7787062871023856,
+                -2.2858414237113195
+              ],
+              "pose": {
+                "w": 0.9497853847317869,
+                "i": -0.31284558490773773,
+                "j": -0.0031768834478292946,
+                "k": 0.005026963813846869,
+                "x": 0.24633563732975722,
+                "y": 0.18444669164504088,
+                "z": 1.1899529230881356
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "j4k5l6m7-8n9o-0p1q-2r3s-4t5u6v7w8x9y": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "k5l6m7n8-9o0p-1q2r-3s4t-5u6v7w8x9y0z": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "l6m7n8o9-0p1q-2r3s-4t5u-6v7w8x9y0z1a": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                2.5819201970197746,
+                -1.07781916965026195,
+                2.893979308960159,
+                -3.2240420709520575,
+                -2.582153425795368,
+                2.932594606981648
+              ],
+              "pose": {
+                "w": 0.4909475903468819,
+                "i": 0.5090006173464415,
+                "j": 0.5052937240093636,
+                "k": 0.49453724586756975,
+                "x": 0.004836347311677702,
+                "y": 0.6946685703527202,
+                "z": 0.8097036892584941
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "m7n8o9p0-1q2r-3s4t-5u6v-7w8x9y0z1a2b": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "n8o9p0q1-2r3s-4t5u-6v7w-8x9y0z1a2b3c": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "o9p0q1r2-3s4t-5u6v-7w8x-9y0z1a2b3c4d": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                -1.9305537260062495,
+                -2.3329043335048582,
+                3.1108886932056912,
+                -2.1809278912317339,
+                -2.8787062871023856,
+                -2.3358414237113195
+              ],
+              "pose": {
+                "w": 0.9497853847317869,
+                "i": -0.31284558490773773,
+                "j": -0.0031768834478292946,
+                "k": 0.005026963813846869,
+                "x": 0.24633563732975722,
+                "y": 0.18444669164504088,
+                "z": 1.1899529230881356
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "p0q1r2s3-4t5u-6v7w-8x9y-0z1a2b3c4d5e": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "q1r2s3t4-5u6v-7w8x-9y0z-1a2b3c4d5e6f": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "r2s3t4u5-6v7w-8x9y-0z1a-2b3c4d5e6f7g": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                2.6019201970197746,
+                -1.09781916965026195,
+                2.913979308960159,
+                -3.2440420709520575,
+                -2.602153425795368,
+                2.952594606981648
+              ],
+              "pose": {
+                "w": 0.4909475903468819,
+                "i": 0.5090006173464415,
+                "j": 0.5052937240093636,
+                "k": 0.49453724586756975,
+                "x": 0.004836347311677702,
+                "y": 0.6946685703527202,
+                "z": 0.8097036892584941
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "s3t4u5v6-7w8x-9y0z-1a2b-3c4d5e6f7g8h": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "t4u5v6w7-8x9y-0z1a-2b3c-4d5e6f7g8h9i": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "u5v6w7x8-9y0z-1a2b-3c4d-5e6f7g8h9i0j": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                -1.9805537260062495,
+                -2.3829043335048582,
+                3.1608886932056912,
+                -2.2309278912317339,
+                -2.9787062871023856,
+                -2.3858414237113195
+              ],
+              "pose": {
+                "w": 0.9497853847317869,
+                "i": -0.31284558490773773,
+                "j": -0.0031768834478292946,
+                "k": 0.005026963813846869,
+                "x": 0.24633563732975722,
+                "y": 0.18444669164504088,
+                "z": 1.1899529230881356
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "v6w7x8y9-0z1a-2b3c-4d5e-6f7g8h9i0j1k": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "w7x8y9z0-1a2b-3c4d-5e6f-7g8h9i0j1k2l": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "x8y9z0a1-2b3c-4d5e-6f7g-8h9i0j1k2l3m": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                2.6219201970197746,
+                -1.11781916965026195,
+                2.933979308960159,
+                -3.2640420709520575,
+                -2.622153425795368,
+                2.972594606981648
+              ],
+              "pose": {
+                "w": 0.4909475903468819,
+                "i": 0.5090006173464415,
+                "j": 0.5052937240093636,
+                "k": 0.49453724586756975,
+                "x": 0.004836347311677702,
+                "y": 0.6946685703527202,
+                "z": 0.8097036892584941
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "y9z0a1b2-3c4d-5e6f-7g8h-9i0j1k2l3m4n": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "z0a1b2c3-4d5e-6f7g-8h9i-0j1k2l3m4n5o": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "a1b2c3d4-5e6f-7g8h-9i0j-1k2l3m4n5o6p": {
+          "args": {
+            "argumentKind": "MoveArmTo",
+            "motionKind": "joint",
+            "shouldMatchJointAngles": false,
+            "tcpOption": "auto",
+            "positionListID": null,
+            "target": {
+              "jointAngles": [
+                -2.0305537260062495,
+                -2.4329043335048582,
+                3.2108886932056912,
+                -2.2809278912317339,
+                -3.0787062871023856,
+                -2.4358414237113195
+              ],
+              "pose": {
+                "w": 0.9497853847317869,
+                "i": -0.31284558490773773,
+                "j": -0.0031768834478292946,
+                "k": 0.005026963813846869,
+                "x": 0.24633563732975722,
+                "y": 0.18444669164504088,
+                "z": 1.1899529230881356
+              },
+              "tcpOption": "wrist"
+            },
+            "targetKind": "singlePosition",
+            "isWaypoint": false,
+            "isCacheable": false,
+            "reduceSmoothing": false,
+            "moveDynamicBaseToReachPosition": true
+          }
+        },
+        "b2c3d4e5-6f7g-8h9i-0j1k-2l3m4n5o6p7q": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "primary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        },
+        "c3d4e5f6-7g8h-9i0j-1k2l-3m4n5o6p7q8r": {
+          "args": {
+            "argumentKind": "ActuateGripper",
+            "selectedGripper": "secondary",
+            "diameterMM": 125,
+            "forceNewtons": 45,
+            "gripKind": "inward",
+            "payloadKg": 0,
+            "targetDiameterToleranceMeters": 0.01,
+            "waitForGripToContinue": false,
+            "isFlexGrip": false,
+            "forcePercent": 0.5,
+            "stopRoutineOnFailure": true
+          }
+        }
+      }
+    }
+  }
